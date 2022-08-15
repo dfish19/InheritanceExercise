@@ -42,13 +42,14 @@ namespace Inheritance
              * Creatively display the class member values 
              */
 
-            var r = new Reptile()
-            {
-                HasTongue = true,
-                HasTail = true,
-                IsDangerous = true,
-                AreMammals = true,
-        };
+            var r = new Reptile();
+
+
+            r.HasTongue = true;
+            r.HasTail = true;
+            r.IsDangerous = true;
+            r.AreMammals = true;
+        
             var myAnimals = new Animal[] {b, r};
 
             foreach (var item in myAnimals)
